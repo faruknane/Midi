@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BaseCom/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BaseCom.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseCom.dll": {}
+        }
+      },
+      "Midi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Midi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Midi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaseCom/1.0.0": {
+      "type": "project",
+      "path": "../BaseCom/BaseCom.csproj",
+      "msbuildProject": "../BaseCom/BaseCom.csproj"
+    },
+    "Midi/1.0.0": {
+      "type": "project",
+      "path": "../Midi/Midi.csproj",
+      "msbuildProject": "../Midi/Midi.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BaseCom >= 1.0.0",
+      "Midi >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\faruk\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\LiveMidiClient\\LiveMidiClient.csproj",
+      "projectName": "LiveMidiClient",
+      "projectPath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\LiveMidiClient\\LiveMidiClient.csproj",
+      "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\LiveMidiClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\BaseCom\\BaseCom.csproj": {
+              "projectPath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\BaseCom\\BaseCom.csproj"
+            },
+            "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\Midi\\Midi.csproj": {
+              "projectPath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\Midi\\Midi.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.1.22110.4\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

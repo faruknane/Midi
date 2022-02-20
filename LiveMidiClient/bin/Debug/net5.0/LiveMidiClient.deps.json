@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LiveMidiClient/1.0.0": {
+        "dependencies": {
+          "BaseCom": "1.0.0",
+          "Midi": "1.0.0"
+        },
+        "runtime": {
+          "LiveMidiClient.dll": {}
+        }
+      },
+      "BaseCom/1.0.0": {
+        "runtime": {
+          "BaseCom.dll": {}
+        }
+      },
+      "Midi/1.0.0": {
+        "runtime": {
+          "Midi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiveMidiClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BaseCom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Midi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
