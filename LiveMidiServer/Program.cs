@@ -18,7 +18,7 @@ namespace LiveMidiServer
             while (true)
             {
                 Client c = s.AcceptClient();
-                new Thread(ProcessClient).Start(c);
+                new Thread(ProcessClient) { IsBackground = true }.Start(c);
             }
             s.Stop();
         }

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IVfOTmMod8eS1Y1yDKXg2T5lfp/dY7sXiS0J87lGYsOVlU6q7DlG6OcHWwrku8tQRTe7EqDM0tmMgTw67UJKzg==",
+  "dgSpecHash": "+e7dBD2ryAVIlOujp3hDpAz0QvPONW+ZIlRuuXapu1YHc8CMDZoMDvfK8w88QdKgqCQ/LqKjp6yhzA95G5AQRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\midi_share\\Midi\\LiveMidiClient\\LiveMidiClient.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\faruk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
-    "C:\\Users\\faruk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\faruk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\faruk\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\faruk\\Desktop\\Faruk Nane\\Projeler\\Visual Studio Projeleri\\MidiGithub\\LiveMidiClient\\LiveMidiClient.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
